@@ -1,0 +1,68 @@
+                                /* Assignment 1 */
+/* Any Element With Class Title
+.title {}
+
+Any Element with id nav
+#nav {}
+
+Any div element
+div {}
+
+Any h2 element
+h2 {} */
+
+/* External
+<link rel="stylesheet" href="css/file.css" />
+
+Internal
+<style>
+p {
+  color: red;
+}
+</style>
+
+Inline
+<p style="color: blue;">This Is Our Paragraph</p> */
+
+/* <link rel="stylesheet" href="/assets/css/master.css">
+
+<link rel="stylesheet" href="{../source/css/main.css }" /> */
+
+/* Valid
+._user-name {}
+
+Valid
+.-user-name {}
+
+Valid
+.-user-name {}
+
+Not Valid
+.1user-name {}
+
+Not Valid
+.@user-name {}
+
+Not Valid
+.user@name {}
+
+Valid
+._user10name {}
+
+Valid
+.u {} */
+/* 
+Bad
+.USERNAME {}
+
+Bad
+.UserName {}
+
+good
+.user-name {}
+
+bad
+.userName {}
+
+bad
+.usernameprofile {} */
