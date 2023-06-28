@@ -1,0 +1,38 @@
+/* div{
+   display: inline-block;
+   padding: 20px 25px;
+   margin: 20px;
+}
+.container1{
+    border: red solid 5px;
+    outline: black 5px solid;
+}
+.container2{
+    border-color: blue green;
+    border-width: 5px;
+    border-style: solid;
+    outline: black 5px solid;
+}
+.container3{
+    border-color:red green blue yellow ;
+    border-width: 5px;
+    border-style: dashed;
+    outline: black 5px solid;
+} */
+
+                            /* 2 */
+div{
+    width: 400px;
+    background-color: #eee;
+    padding: 20px;
+}
+.container1{
+    border-left: 5px solid blueviolet;
+}
+.container2{
+    border-left: 5px solid bisque;
+    visibility: hidden;
+}
+.container3{
+    border-left: 5px solid brown;
+}
