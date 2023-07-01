@@ -1,0 +1,58 @@
+/* body{
+    padding: 0;
+    width: 800px;
+    background-color: brown;
+}
+.full-width{
+    text-align: center;
+    margin-left: 15px;
+    padding: 10px 0;
+    background-color: #eee;
+    float: left;
+    width: calc(100% - 30px) ;
+}
+.third-width{
+    margin-top: 10px;
+    text-align: center;
+    margin-left: 15px;
+    padding: 15px 0;
+    background-color: #eee;
+    float: left;
+    width: calc((100% - 60px ) /3);
+}
+.quarter-width{
+         margin-top: 10px;
+        text-align: center;
+        margin-left: 15px;
+        padding: 15px 0;
+        background-color: #eee;
+        float: left;
+        width: calc((100% - 75px) /4);
+}
+.half-width{
+        margin-top: 10px;
+        text-align: center;
+        margin-left: 15px;
+        padding: 15px 0;
+        background-color: #eee;
+        float: left;
+        width: calc((100% - 45px) /2);
+} */
+
+                                    /* 2 */
+div {
+    margin: 20px auto;
+    width: 300px;
+    font-weight: bold;
+    font-size: 1rem;
+    padding: 20px;
+    background-color: grey;
+    /* Get The Background From Image */
+    color: black;
+}
+.one{
+    background-color: rgba(128, 128, 128, 0.1);
+}
+.two{
+    opacity: 0.1;
+}
