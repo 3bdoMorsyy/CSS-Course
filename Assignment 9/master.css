@@ -1,0 +1,106 @@
+/* div{
+    position: relative;
+    left: 50%;
+    margin-left: -150px;
+    width: 300px;
+    height: 60px;
+    text-align: center;
+    background-color: #eee;
+    font-weight: bold;
+    margin-top: 10px;
+    line-height: 60px;
+}
+
+div::target-text{
+    height: 50%;
+}
+div:empty{
+    background-color: red;
+} */
+                            /* 2 */
+/* div{
+    background-color: rgba(128, 128, 128, 0.586);
+    text-align: center;
+    width: 300px;
+    height: 50px;
+    line-height: 50px;
+    position: relative;
+    font-weight: 500;
+    left: 50%;
+    margin-left: -150px;
+}
+div::first-letter{
+    background-color: red;
+    color: white;
+    margin-left: -40px;
+    padding: 7px;
+    margin-right: 7px;
+} */
+
+                            /* 3 */
+/* p{
+    position: relative;
+    background-color: #eee;
+    color: black;
+    padding: 10px;
+    border-left:5px solid mediumvioletred ;
+    width: 500px;
+    left: 50%;
+    margin-left: -250px;
+}
+
+p::after{
+        content: "";
+        position: absolute;
+        top: 50%;
+        margin-top: -4px;
+        left: -13px;
+        background-color: transparent;
+        height: 0;
+        width: 0;
+        border-width: 5px;
+        border-style: solid;
+        border-color: transparent mediumvioletred transparent transparent;
+}
+p::before{
+    content: attr(data-person);
+    position: absolute;
+    float: left;
+    left: -64px;
+    background-color: #eee;
+    width: 50px;
+    padding: 2px;
+    text-align: center;
+} */
+                                                /* 4 */
+/* p{
+    padding: 0 40px;
+    position: relative;
+    left: 50%;
+    margin-left: -240px;
+    background-color: #eee;
+    width: 400px;
+    counter-increment: p-counter;
+    color: black;
+    height: 30px;
+    line-height: 30px;
+
+}
+p::before{
+    position: absolute;
+    left: 0;
+    content: counter(p-counter);
+    font-weight: bold;
+    color: white;
+    background-color: tomato;
+    padding:  0 10px;
+    text-align: center;
+}
+p::after{
+    content: "";
+    position: absolute;
+    right: 0;
+    height: 100%;
+    background-color: tomato;
+    width: 4px;
+} */
