@@ -1,0 +1,213 @@
+/* div{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    box-shadow: 7px 0 0 orange, -7px 0 0 #3155c4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #EEE;
+    margin: 10px calc(50% - 100px);
+    color: orange;
+    } */
+
+                                                /* 2 */
+/* *{
+    box-sizing: border-box;
+}
+.parent{
+    width: 600px;
+    height: 300px;
+    margin: 20px calc((100% - 600px) / 2);
+    background-color: #eee;
+    display: flex;
+    align-content: space-between;
+    justify-content: space-between;
+    flex-flow: wrap row;
+    padding: 15px;
+}
+div{
+    background-color: tomato;
+    width: calc(94% / 3);
+    height: 40px;
+    color: white;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+                                                /* 3 */
+/* * {
+    box-sizing: border-box;
+}
+.parent{
+    width: 600px;
+    height: 300px;
+    display: flex;
+    margin-left: calc((100% - 600px) / 2);
+    padding: 15px;
+    flex-flow: wrap-reverse row-reverse;
+    justify-content: space-between;
+    align-content: space-between;
+    background-color: #eee;
+}
+div{
+    display: flex;
+    width: calc(94% / 3);
+    background-color: #113f3f;
+    height: 40px;
+    color: white;
+    align-items: center;
+    justify-content: center;
+}
+.two, .four, .five, .six {
+    height: 50%;
+}
+.one{
+    order: 1;
+    align-self: self-end;
+}
+.two{order: 2;
+}
+.three{order: 5;
+align-self: self-start;
+}
+.four{order: 4;
+}
+.five{order: 3;
+}
+.six{order: 6;
+} */
+                                                /* 4 */
+/* * {
+    box-sizing: border-box;
+}
+.parent {
+    width: 600px;
+    height: 300px;
+    display: flex;
+    margin-left: calc((100% - 600px) / 2);
+    padding: 15px;
+    flex-flow: wrap column;
+    justify-content: space-between;
+    align-items: flex-end;
+    background-color: #eee;
+}
+div {
+    display: flex;
+    width: 30px;
+    background-color: #113f3f;
+    height: 80px;
+    color: white;
+    align-items: center;
+    justify-content: center;
+}
+.two {
+    align-self: flex-start;
+    width: 50%;
+} */
+                                    /* 5 */
+
+/* * {
+    box-sizing: border-box;
+}
+
+.parent {
+    width: 600px;
+    height: 300px;
+    display: flex;
+    margin-left: calc((100% - 600px) / 2);
+    padding: 10px;
+    flex-flow: wrap row;
+    justify-content: space-between;
+    align-items: flex-start;
+    background-color: #eee;
+}
+div{
+    display: flex;
+    height: 50%;
+    width: 80px;
+    color: white;
+    justify-content: center;
+    align-items: center;
+}
+.one{
+    background-color: orange;
+}
+.two{
+    background-color: greenyellow;
+}
+.three{
+    background-color: brown;
+}
+.four{
+    background-color: blueviolet;
+    order: -1;
+}
+.four,.two{
+    align-self: flex-end;
+} */
+                                        /* 6 */
+*{
+    box-sizing: border-box;
+}
+.page{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #eee;
+    color: black;
+    width: 100%;
+    padding: 10px;
+    height: 440px;
+}
+.header,.footer{
+    display: flex;
+    height: 40px;
+    justify-content: space-between;
+    width: 100%;
+}
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80px;
+    height: 40px;
+    background-color: #ddd;
+}
+.links{
+    margin: 0;
+    height: 40px;
+    width: calc(100% - 100px);
+    display: flex;
+    background-color: #ddd;
+    flex-flow: nowrap row;
+    justify-content: flex-end;
+    text-indent: 15px;
+    list-style: none;
+    padding: 10px;
+    }
+    .main-area{
+        display: flex;
+        width: 600px;
+    }
+.main-area{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.content{
+    width: 69%;
+    background-color: #ddd;
+    height: 320px;
+    padding: 10px;
+}
+.sidebar{
+    width: 29%;
+    background-color: #ddd;
+    height: 320px;
+    padding: 10px;
+}
+.footer{
+    padding: 10px;
+    background-color: #ddd;
+}

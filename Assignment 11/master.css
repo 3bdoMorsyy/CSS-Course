@@ -1,0 +1,63 @@
+/* .parent{
+    position: relative;
+    margin: 40px auto;
+    width: 600px;
+    height: 100px;
+    background-color: #eee;
+    text-align: center;
+    padding: 30px;
+    transition: margin-top .5s;
+}
+.child{
+    position: absolute;
+        width: 80%;
+        top: 50%;
+        margin-top: -20px;
+        left: 56px;
+        text-align: center;
+        background-color: #ddd;
+        padding: 15px;
+        transition: margin-top .5s .5s;
+}
+.parent:hover{
+    margin-top: 10px;
+}
+div:hover .child{
+    margin-top: 10px;
+} */
+
+                    /* 2 */
+/* div{
+    width: 400px;
+    height: 100px;
+    margin: 30px auto;
+    color: black !important;
+    background-color: #ddd !important;
+    text-align: center !important;
+    border: none !important;
+    font-size: 0 !important;    
+    position: relative;
+}
+div::before{
+        content: "Elzero";
+        position: absolute;
+        top: 50%;
+        margin-top: -25px;
+        left: 50%;
+        margin-left: -50px;
+        font-size: 40px;
+        font-weight: 500;
+} */
+
+                        /* 3 */
+:root {
+    --mainColor: #009688;
+    --mainPadding: 10px;
+}
+
+div {
+    margin: 20px auto;
+    color: var(--mainColor ,red);
+    border: 2px solid var(--mainColor,black);
+    padding: var(--mainPadding , 10px);
+}

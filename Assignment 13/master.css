@@ -1,0 +1,68 @@
+/* div{
+    position: relative;
+    display: block;
+    margin: 40px auto;
+    width: 500px;
+    height: 100px;
+    text-align: center;
+    line-height: 100px;
+    align-items: center;
+    justify-content: center;
+    border-left: 10px solid orange;
+    border-right: 10px solid rgb(34, 5, 34);
+    font-size: xxx-large;
+}
+div::first-letter{    
+    display:inline-block ; 
+    color: orange;
+}
+div::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 10px;
+    background-image: linear-gradient(to right,orange 20%, rgb(20, 99, 173) 20%,rgb(20, 99, 173) 40%,green 40%,green 60%,tomato 60%,tomato 80%,rgb(34, 5, 34) 80%);
+    background-color: rgb(34, 5, 34);
+}
+div::after{
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 10px;
+    background-image: linear-gradient(to right, orange 20%, rgb(20, 99, 173) 20%, rgb(20, 99, 173) 40%, green 40%, green 60%, tomato 60%, tomato 80%, rgb(34, 5, 34) 80%);
+    background-color: rgb(34, 5, 34);
+} */
+
+                                            /* 2 */
+input{
+    display: block;
+    position: relative;
+    caret-color: red;
+    width: 600px;
+    height: 40px;
+    background-color: #ddd;
+    border: none;
+    margin: 10px;
+    outline: none;
+    padding: 10px;
+}
+div{
+    margin: 10px auto;
+    width: 600px;
+    height: 80px;   
+    position: relative;
+}
+div::after{
+    content: "";
+    position: absolute;
+    bottom: 5px;
+    left: 0;
+    width: 620px;
+    height: 5px;
+    background-image: linear-gradient(to right , tomato 50% , rgb(27, 118, 4) 50%);
+    margin: 10px;
+}
