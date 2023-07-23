@@ -1,0 +1,36 @@
+*{
+    margin: 2px;
+    font-weight: 400;
+    font-size: 20px;
+}
+/* div.main.red{
+    color: red;
+} */
+                        /* 2 */
+/* .parent > .child:last-of-type{
+    color:red;
+} */
+                        /* 3 */
+/* .parent > .baby:only-child{
+    color: red;
+} */
+                        /* 4 */
+/* body > div[title]:not(.no-need){
+    color:red;
+} */
+                        /* 5 */
+/* :not(.no-need) > [title="Elzero"]:last-child:not(.no-need){
+    color: red;
+} */
+                        /* 6 */
+/* div:not(.no-need) > :nth-last-of-type(2){
+    color: red;
+} */
+                        /* 7 */
+/* h3 + h3 + div{
+    color:red;
+} */
+                        /* 8 */
+:not(:first-child):not(:last-child):not(h3){
+    color: red;
+}
